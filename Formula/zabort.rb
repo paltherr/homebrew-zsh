@@ -4,6 +4,7 @@ class Zabort < Formula
   url "https://github.com/paltherr/zabort/archive/v0.1.0.tar.gz"
   sha256 "16224e9d0df6386f92a9e7fa5c099d81c02e5c8109687d026fcc74fe66a65c07"
   head "https://github.com/paltherr/zabort.git", :branch => "main"
+  license "MIT"
 
   def install
     bin.install "src/bin/zabort.zsh"
