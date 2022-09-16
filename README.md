@@ -1,2 +1,3 @@
 # homebrew-zsh
-Zsh related homebrew packages
+
+Repository for managing Zsh related [Homebrew](https://brew.sh) formulae
