@@ -8,7 +8,7 @@ class Zmisc < Formula
 
   def install
     bin.install "src/bin/zmisc.zsh"
-    bin.install "src/bin/show-args"
     zsh_function.install "src/functions/show-args"
+    bin.install_symlink zsh_function/"show-args"
   end
 end
