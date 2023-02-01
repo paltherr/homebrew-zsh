@@ -9,5 +9,6 @@ class Zbench < Formula
   def install
     bin.install "src/bin/zbench.zsh"
     zsh_function.install "src/functions/zbench"
+    bin.install_symlink zsh_function/"zbench"
   end
 end
