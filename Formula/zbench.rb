@@ -2,7 +2,7 @@ class Zbench < Formula
   desc "Zsh code benchmarking"
   homepage "https://github.com/paltherr/zbench"
   url "https://github.com/paltherr/zbench/archive/v0.1.0.tar.gz"
-  sha256 "67786c9e235adb480f7a93f9473f10ada04b7c9c4ae77c96c4a31efe96f28a9b"
+  sha256 "5528649511f9669718595ad7329981fd37f9bcfedaa7a5814bb26222e4c4d7dc"
   head "https://github.com/paltherr/zbench.git", :branch => "main"
   license "MIT"
 
